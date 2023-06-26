@@ -30,12 +30,12 @@
 				<td>
 					<strong><?=$jsonDecode['question']?></strong><br />
 					<span class="gray fontSmall">
-						<strong><?=implode($jsonDecode['answer'],',')?></strong>
+						<strong><?=implode(',', $jsonDecode['answer'])?></strong>
 					</span>
 				</td>
 				<td class="col_75 align_right">
 					<a href="#" myAction="delete" myID="<?php echo $model->setting_id;?>" rel="facebox" class="image"><?php echo img($images['delete']);?></a>
-					&nbsp;
+					 
 					<?php echo anchor('extensions/nova_ext_anti_spam_questions/Manage/edit/'. $model->setting_id, img($images['edit']), array('class' => 'image'));?>
 				</td>
 			</tr>
