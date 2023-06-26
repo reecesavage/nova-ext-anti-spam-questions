@@ -22,7 +22,7 @@ class __extensions__nova_ext_anti_spam_questions__Manage extends Nova_controller
     public function writeControllerCode()
   {   
           
-        $extControllerPath = APPPATH.'controllers/main.php';
+        $extControllerPath = APPPATH.'controllers/Main.php';
         if ( !file_exists( $extControllerPath ) ) { 
         return [];
         }
@@ -62,7 +62,7 @@ class __extensions__nova_ext_anti_spam_questions__Manage extends Nova_controller
         $data['title'] = 'Manage Questions';
       $data['write']=true;
 
-         $extControllerPath = APPPATH.'controllers/main.php';
+         $extControllerPath = APPPATH.'controllers/Main.php';
          
         if ( !file_exists( $extControllerPath ) ) { 
         return [];
