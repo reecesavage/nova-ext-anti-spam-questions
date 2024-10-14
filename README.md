@@ -2,8 +2,8 @@
 ## Created for you by [Sim Central](https://simcentral.org)
 
 <p align="center">
-  <a href="https://github.com/reecesavage/nova-ext-anti-spam-questions/releases/tag/v1.1.0"><img src="https://img.shields.io/badge/Version-v1.1.0-brightgreen.svg"></a>
-  <a href="http://www.anodyne-productions.com/nova"><img src="https://img.shields.io/badge/Nova-v2.7.5+-orange.svg"></a>
+  <a href="https://github.com/reecesavage/nova-ext-anti-spam-questions/releases/tag/v1.1.1"><img src="https://img.shields.io/badge/Version-v1.1.0-brightgreen.svg"></a>
+  <a href="http://www.anodyne-productions.com/nova"><img src="https://img.shields.io/badge/Nova-v2.7.12+-orange.svg"></a>
   <a href="https://www.php.net"><img src="https://img.shields.io/badge/PHP-v8.x-blue.svg"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-red.svg"></a>
 </p>
@@ -12,7 +12,7 @@ This extension allows the Game Manager to add questions to the Contact and Join 
 
 This extension requires:
 
-- Nova 2.7.5+
+- Nova 2.7.12+
 - Nova Extension [`jquery`](https://github.com/jonmatterson/nova-ext-jquery)
 
 ## Upgrade Considerations
@@ -28,7 +28,7 @@ This extension requires:
 ```
 $config['extensions']['enabled'][] = 'nova_ext_anti_spam_questions';
 ```
-### Setup Using Admin Panel - Preferred
+### Setup Using Admin Panel
 
 - Navigate to your Admin Control Panel
 - Choose Anti Spam Questions under Manage Extensions
@@ -51,6 +51,6 @@ If you encounter a bug or have a feature request, please report it on GitHub in 
 
 ## License
 
-Copyright (c) 2023 Reece Savage.
+Copyright (c) 2024 Reece Savage.
 
 This module is open-source software licensed under the **MIT License**. The full text of the license may be found in the `LICENSE` file.
