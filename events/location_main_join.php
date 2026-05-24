@@ -19,8 +19,8 @@ $this->event->listen(['location', 'view', 'data', 'main', 'main_join_2'], functi
 
       $event['data']['inputs']['nova_ext_anti_spam_questions_answer'] = array(
         'name' => 'nova_ext_anti_spam_questions_answer',
-        'id' => 'nova_ext_anti_spam_questions_answer'
-        
+        'id' => 'nova_ext_anti_spam_questions_answer',
+        'required' => 'required',
       );
 
 
