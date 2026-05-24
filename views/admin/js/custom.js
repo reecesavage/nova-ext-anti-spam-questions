@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	var i=1;
+	// Start past the highest server-rendered data-id so newly added rows
+	// never collide with existing ones (jQuery's #id selector would match the
+	// first DOM occurrence and remove the wrong row).
+	var i = $('.answer').length;
 
 	$(document).on("click",".add-more",function() {
     var html="<div class='answer' id='answer_"+i+"' data-id="+i+">";
